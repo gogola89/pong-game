@@ -4,7 +4,7 @@ const context = canvas.getContext("2d");
 // const socket = io("http://localhost:8000", {
 //   transports: ["websocket", "polling", "flashsocket"],
 // });
-const socket = io("http://192.168.0.157:8080");
+const socket = io();
 let isReferee = false;
 
 let paddleIndex = 0;
